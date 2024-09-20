@@ -1,0 +1,31 @@
+<body bgcolor="pink">
+  <h1>Settings</h1>
+  <form>
+    <h2>Account Settings</h2>
+    <table cellpadding="5" cellspacing="0" border="1">
+      <tr>
+        <th>Update Username:</th>
+        <td><input type="text" id="username" name="username" size="30" placeholder="Enter new username"></td>
+      </tr>
+      <tr>
+        <th>Update Email:</th>
+        <td><input type="email" id="email" name="email" size="30" placeholder="Enter new email"></td>
+      </tr>
+      <tr>
+        <th>Update Password:</th>
+        <td><input type="password" id="password" name="password" size="30" placeholder="Enter new password"></td>
+      </tr>
+    </table>
+
+    <h2>Notification Settings</h2>
+    <p>Receive notifications: <input type="checkbox" id="notifications" name="notifications"></p>
+
+    <h2>Security Settings</h2>
+    <p>Enable two-factor authentication: <input type="checkbox" id="two-factor" name="two-factor"></p>
+
+    <p>
+      <input type="submit" value="Save Changes">
+      <a href="index.html" target="_blank"><input type="button" value="Back"></a>
+    </p>
+  </form>
+</body>
